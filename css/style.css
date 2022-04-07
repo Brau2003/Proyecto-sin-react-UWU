@@ -436,3 +436,26 @@
 #promo .btn-groups a:hover{
     background-color: var(--dark-green-color);
 }
+
+/* AÑADIR A CSS PARA FORTNITE RESPONSIVE */
+
+@media (max-width: 854px) {
+    #promo .btn-groups a{
+        margin: 0.5rem;
+        background-color: var(--green-color);
+        border-radius: .2rem;
+        color: #fff;
+        padding: 1.4rem 2rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        -webkit-transition: var(--trans);
+        -o-transition: var(--trans);
+        transition: var(--trans);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #promo .btn-groups a:hover{
+        background-color: var(--dark-green-color);
+    }
+  }
